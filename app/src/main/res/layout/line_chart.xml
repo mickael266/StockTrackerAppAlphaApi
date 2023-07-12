@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dp">
+
+        <TextView
+            android:id="@+id/activity_main_stockticker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Stock Ticker"
+            android:textSize="54sp" />
+
+        <RadioGroup
+            android:id="@+id/activity_main_period_radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Period"
+                android:textSize="18sp"/>
+
+            <RadioButton
+                android:id="@+id/activity_main_period1d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1D" />
+
+            <RadioButton
+                android:id="@+id/activity_main_period5d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5D" />
+
+            <RadioButton
+                android:id="@+id/activity_main_period30d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1M" />
+
+            <RadioButton
+                android:id="@+id/activity_main_period6m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6M" />
+
+            <RadioButton
+                android:id="@+id/activity_main_period12m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1Y" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price Data Sets"
+                android:textSize="18sp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/activity_main_high"
+                android:text="High"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/activity_main_low"
+                android:text="Low"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/activity_main_close"
+                android:text="Close"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Prices"
+        android:id="@+id/activity_main_getprices" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/activity_main_linechart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+    </com.github.mikephil.charting.charts.LineChart>
+
+</LinearLayout>
