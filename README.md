@@ -29,5 +29,6 @@ The Prototype pattern helps reduce object creation overhead and allows for the c
 ![image](https://github.com/mickael266/StockTrackerAppAlphaApi/assets/40838452/837279f3-ee1b-486a-8224-0df8e0f27ddb)
 ![image](https://github.com/mickael266/StockTrackerAppAlphaApi/assets/40838452/34d3edac-905e-4a00-acab-5c50784b0d10)
 
+![FullClassDiagram](https://github.com/mickael266/StockTrackerAppAlphaApi/assets/40838452/1eeb4f4c-122c-4411-afe5-927ce5d27eac)
 
 
