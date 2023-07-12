@@ -26,8 +26,8 @@ The Prototype design pattern is used to create new objects by cloning existing o
 
 The Prototype pattern helps reduce object creation overhead and allows for the creation of new objects with varying configurations based on existing instances.
 
-![Screenshot 2023-07-12 181705](https://github.com/mickael266/Stock-Tracker-App/assets/40838452/b11bff3e-d8bf-4b8c-a3e7-b69b8e594387)
+![image](https://github.com/mickael266/StockTrackerAppAlphaApi/assets/40838452/837279f3-ee1b-486a-8224-0df8e0f27ddb)
+![image](https://github.com/mickael266/StockTrackerAppAlphaApi/assets/40838452/34d3edac-905e-4a00-acab-5c50784b0d10)
 
-![Screenshot 2023-07-12 181607](https://github.com/mickael266/Stock-Tracker-App/assets/40838452/90ecac41-76ad-4ad4-a3f3-b5202b22388a)
 
 
